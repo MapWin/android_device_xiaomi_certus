@@ -130,6 +130,12 @@ PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 #PRODUCT_PACKAGES += \
     ImsInit
 
+#Apps
+PRODUCT_PACKAGES += \
+    mapcam \
+    #mix \
+    GBoard32 
+
 # Wi-Fi
 PRODUCT_PACKAGES += \
     TetheringConfigOverlay \
